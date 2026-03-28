@@ -2,7 +2,6 @@
 #include<cmath>
 using namespace std;
 double add(double a,double b){
-       //return k==a+b;
        cout<<"The sum of 'a' and 'b' is:"<<a+b<<endl;
        }
 double sub(double a,double b){
@@ -40,7 +39,6 @@ double tan(double a){
        cout<<"The tangent angle of "<<a<<" is:"<<tan(a)<<endl;
        }
 double root(double a,double b,double k){
-       //return k==pow(1.0/a,b);
        cout<<"The "<<a<<" root of "<<b<<" is:"<<pow(1.0 / a,b)<<endl;
        }
 double off(double a){
@@ -51,7 +49,6 @@ double factor(double a,double z,double fact);
 double log_base(double a, double b, double k){
        if(a<=0||b<=0||b==1){
                  cout<<"Not A Number"<<endl;
-                 //break;
                  }
                  else{
                 k=log(a) / log(b);
@@ -61,9 +58,6 @@ cout<<"The logarithm of "<<a<<" to base "<<b<<" is:"<<k<<endl;
 double factor(double a,double fact,double i){
       for(i=a;i>=1;i--)
       fact=fact*i;
-                        
-       //double factorial;
-      // return z==0?1:z* factorial(z-1);
        cout<<"The factorial of "<<a<<" is: "<<fact<<endl;
        }
 int main() {
